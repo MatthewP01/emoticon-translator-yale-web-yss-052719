@@ -24,7 +24,7 @@ def get_japanese_emoticon(file, emoticon)
     translated = library["get_emoticon"][emoticon]
   else
     puts "Apologies, does not exist"
-
+  end
 end
 
 
