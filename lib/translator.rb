@@ -31,8 +31,8 @@ end
 def get_english_meaning(file, emoticon)
   library = load_library(file)
   if library["get_meaning"].include?(emoticon)
-    translated = library["get_emoticon"][emoticon]
-  elsif library["get_emoticon"][emoticon].nil?
+    translated = library["get_meaning"][emoticon]
+  elsif library["get_meaning"][emoticon].nil?
     return "Sorry, that emoticon was not found"
   end
 
