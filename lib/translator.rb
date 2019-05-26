@@ -20,7 +20,7 @@ end
 
 def get_japanese_emoticon(YAML_file, emoticon)
   library = load_library(YAML_file)
-  translated = library
+  translated = library["get_meaning"][emoticon]
 end
 
 def get_english_meaning
