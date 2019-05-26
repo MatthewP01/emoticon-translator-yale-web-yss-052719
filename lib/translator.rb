@@ -3,7 +3,7 @@ require "yaml"
 
 def load_library(file_path)
   emoticon_hash => {
-    
+    get_meaning => {}
   }
 
   emoticon_lang = YAML.load_file(file_path)
