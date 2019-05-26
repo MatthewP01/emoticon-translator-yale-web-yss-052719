@@ -29,5 +29,5 @@ end
 
 
 def get_english_meaning
-  
+  library = load_library(file)
 end
