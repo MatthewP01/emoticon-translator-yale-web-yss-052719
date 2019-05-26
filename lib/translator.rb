@@ -18,8 +18,8 @@ def load_library(file_path)
   return emoticon_hash
 end
 
-def get_japanese_emoticon(YAML_file, emoticon)
-  library = load_library(YAML_file)
+def get_japanese_emoticon(file, emoticon)
+  library = load_library(file)
   translated = library["get_meaning"][emoticon]
 end
 end
