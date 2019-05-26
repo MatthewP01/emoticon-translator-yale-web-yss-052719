@@ -9,8 +9,8 @@ def load_library(file_path)
   }
 
   emoticon_lang = YAML.load_file(file_path)
-  emoticon_lang.each do |american, japanese|
-    
+  emoticon_lang.each do |english, japanese|
+
 
   end
 
