@@ -4,7 +4,7 @@ require "pry"
 
 def load_library(file_path)
 
-  file_path = ".lib/emoticons.yml"
+  file_path = "/.lib/emoticons.yml"
   emoticon_hash = {
     "get_meaning" => {},
     "get_emoticon" => {},
