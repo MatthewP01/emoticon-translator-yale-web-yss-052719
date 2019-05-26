@@ -12,8 +12,8 @@ def load_library(file_path)
 
   emoticon_lang = YAML.load_file(file_path)
   emoticon_lang.each do |word, emotes|
-    english = emotes[1]
-    japanese = emotes[2]
+    english = emotes[0]
+    japanese = emotes[1]
     emoticon_hash["get_meaning"] = english
     emoticon_hash["get_emoticon"] = japanese
   end
