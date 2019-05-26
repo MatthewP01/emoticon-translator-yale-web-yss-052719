@@ -20,7 +20,7 @@ end
 
 def get_japanese_emoticon(file, emoticon)
   library = load_library(file)
-  if library.include?
+  if library.include?(emoticon)
     translated = library["get_emoticon"][emoticon]
 
 end
