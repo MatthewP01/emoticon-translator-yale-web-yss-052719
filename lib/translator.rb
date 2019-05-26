@@ -35,6 +35,4 @@ def get_english_meaning(file, emoticon)
   elsif library["get_meaning"][emoticon].nil?
     return "Sorry, that emoticon was not found"
   end
-
-
 end
