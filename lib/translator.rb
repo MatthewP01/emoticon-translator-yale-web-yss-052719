@@ -12,8 +12,8 @@ def load_library(file_path)
   emoticon_lang.each do |word, emotes|
     english = emotes[1]
     japanese = emotes[2]
-    emoticon_hash[get_meaning] = english
-    emoticon_hash[get_emoticon] = japanese
+    emoticon_hash["get_meaning"] = english
+    emoticon_hash["get_emoticon"] = japanese
   end
   return emoticon_hash
 end
