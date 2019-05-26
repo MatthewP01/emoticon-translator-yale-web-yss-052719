@@ -15,7 +15,7 @@ def load_library(file_path)
     english = emotes[0]
     japanese = emotes[1]
     emoticon_hash["get_meaning"] = english
-    emoticon_hash["get_emoticon"] = japanese
+    emoticon_hash["get_emoticon"][japanese] = japanese
   end
   return emoticon_hash
 end
